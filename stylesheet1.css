@@ -1,0 +1,106 @@
+body {
+  font-family:halvatica,sans-serif,Arial;  
+  width:80%;
+  margin:auto;
+  background:linear-gradient(white 50%,skyblue)no-repeat;
+              
+}
+* {
+    margin: 0;
+    padding:0;
+}
+header {
+     background:linear-gradient(white)no-repeat;
+    color: black;
+    width: 100%;
+    font-size: 2em;
+    text-align:center;
+}
+
+ nav ul li{
+            list-style-type:none;
+            display:inline;
+            width:20%;
+            float:left;          
+            position:relative;
+            background:#999;
+            line-height:30px;
+             }
+            nav ul li a{
+                text-decoration:none; 
+                text-align:center;                 
+                display:block;                        
+                height:30px;
+                position:relative;
+                color:#FFF;
+                border:1px solid #FFF;
+                text-shadow:1px 1px 1px #000;
+
+            }
+
+        nav ul ul {
+            position: absolute;
+            visibility:hidden;
+            top:32px;
+
+            }
+
+        
+        nav ul li:hover ul {
+            visibility:visible;
+
+        }
+
+        nav li:hover {
+            background: #09F;
+        }
+
+        nav ul li:hover ul li a:hover {
+            background: #CCC;
+            color: #000;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        .clearFloat {
+            clear: both;
+        }
+        
+
+section {
+    
+    width:75%;   
+    float:left;
+   text-align: left;
+}
+
+aside {
+    width: 25%;
+    height:1000px;
+    float:left;
+    background-color:#dce0d3;
+    text-align:center;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+img {
+    height: 300px;
+    width:500px;
+}
+
+section.about_us p,section.about_us h2{
+	text-align:center;
+	margin:25px;
+}
+
+
+
+

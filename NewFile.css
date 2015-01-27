@@ -1,0 +1,196 @@
+
+
+@CHARSET "ISO-8859-1";
+body {
+  font-family:halvatica,sans-serif,Arial;  
+  width:80%;
+  margin:auto;
+  background:linear-gradient(white 50%,skyblue)no-repeat;
+              
+}
+* {
+    margin: 0;
+    padding:0;
+}
+header {
+     background:linear-gradient(skyblue,brown)no-repeat;
+    color: black;
+    width: 100%;
+    font-size: 2em;
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+
+nav {
+	
+	width:100%; 
+	
+	}
+
+nav ul {
+	
+	list-style: none;
+	position: relative;
+	display:block;
+	}
+	
+nav ul li {
+	float:left;
+	display:list-item;
+	list-style: none; 
+	width:20%;	
+	background-color:#64abfb;
+	//border-bottom: 5px solid #2ecc71;
+	}
+
+nav ul li a {
+	display:block;
+	padding:15px 10px;		
+	color:#FFF;
+	font-size:20px;
+	text-decoration:none;
+	font-family: 'Bree Serif', 'serif';
+}
+
+li a:hover {
+	background-color: #2ecc71;
+	
+	 }
+
+	
+/* Change this in order to change the Dropdown symbol */
+
+
+//li > a:after { content: ' »'; } 
+//li > a:only-child:after { content: ''; }  	
+	
+	
+/* The Dropdown Styles */
+/* =================== */
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	//top: 58px;
+}
+	
+/* Display Dropdowns on Hover */
+
+
+nav ul li:hover > ul {
+	display:list-item;
+}
+	
+/* Fisrt Tier Dropdown */
+
+
+nav ul ul li {
+	width:254px;;
+	float:none;
+	position: relative;
+	border-bottom:none;
+}
+
+/* Second, Third and more Tiers	*/
+
+
+
+nav ul ul ul li {
+	position: absolute relative;
+	top:200x; 
+	left:100%;
+}
+
+
+
+
+
+	section {
+    
+    width:60%;   
+    float:left;
+   text-align: left;
+}
+
+aside {
+    width:40%;    
+    float:left;
+    background-color:#dce0d3;
+    text-align:center;
+}
+
+section.aside{
+	width:100%;
+}
+section.aside p{	
+	
+text-align: center;
+padding:4em;
+font-size: .8em;
+	
+}
+article#first1{
+	
+	width:33.33%;
+	height:200px;
+	float:left;
+	display:block;
+	background:red;
+	
+	
+}
+article#second{
+	width:33.33%;
+	height:200px;
+	float:left;
+	display:block;
+	background: green;
+	
+	
+}
+article#third{
+	width:33.33%;
+	height:200px;
+	float:left;
+	display:block;
+	background:yellow;
+	
+}
+aside h1{
+	text-align: center;
+	color:green;
+	text-decoration: blink;
+	background: skyblue;
+	height: 50px;
+	padding-top: 20px;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+img {
+    height: 305px;
+    width:768px;
+}
+
+section.aside img {
+	width:320px;
+	height:200px;
+}
+
+section.about_us p,section.about_us h2{
+	text-align:center;
+	margin:25px;
+}
+
+
+
+
+	
